@@ -1,0 +1,99 @@
+   
+   ///подмосковные вечера///
+
+ C2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 500);
+ d_2(500);
+ G2(500);
+ d_2(500);
+ F2(1000);
+ d_2(500);
+ d2(500);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ G2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 1000);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ vacum_motor(3);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 1000);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 1000);
+vacum_motor(5);
+
+  servo_head_move(headr_pos_play-klapan, 5, 1000);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 500);
+ G2(500);
+ a_2(1000);
+ 
+ 
+ C3(1000);
+ a_2(500);
+ G_2(500);
+ G2(2000);
+ 
+
+ ////припев////
+ a2(1000);
+ H2(1000);
+ d3(500);
+ C3(500);
+ G2(1500);
+  vacum_motor(3);
+ d2(1000);
+ C2(500);
+  vacum_motor(5);
+ G2(500);
+ F2(500);
+ G_2(2000);
+
+
+ a_2(500);
+ G_2(500);
+ G2(1000);
+ F2(500);
+ d_2(500);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ G2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 1000);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ vacum_motor(3);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 1000);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 2000);
+ vacum_motor(5);
+////припев 2 ////
+  a2(1000);
+ H2(1000);
+ d3(500);
+ C3(500);
+ G2(1500);
+  vacum_motor(3);
+ d2(1000);
+ C2(500);
+  vacum_motor(5);
+ G2(500);
+ F2(500);
+ G_2(2000);
+
+
+ a_2(500);
+ G_2(500);
+ G2(1000);
+ F2(500);
+ d_2(500);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ G2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 1000);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ vacum_motor(3);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 1000);
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ C3(50);
+ servo_head_move(headr_pos_play+klapan, 5, 2000);
+
+  servo_head_move(headr_pos_play-klapan_2, 5, 4500);

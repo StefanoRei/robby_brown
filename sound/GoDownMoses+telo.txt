@@ -1,0 +1,163 @@
+///Go down, Moses///
+  
+  vacum_motor(4);
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ G1(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ 
+  body_move_left();//////////////////////////////////////////////////////////////////
+  
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ 
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ 
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ d_2(300);
+ vacum_motor(2);
+ servo_head_move(headr_pos_play-klapan_2,5, 0);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 1500);
+ 
+ 
+  
+  vacum_motor(4);
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ G1(4500);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ 
+
+ 
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ 
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+
+ d_2(300);
+ vacum_motor(2);
+ servo_head_move(headr_pos_play-klapan_2,5, 0);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ 
+body_move_right();//////////////////////////////////////////////////////////////////
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 1500);
+
+
+
+ vacum_motor(4);
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ C2(4500);
+ servo_head_move(headr_pos_play+klapan_1, 5, 300);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 2100);
+ 
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 300);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 2100);
+//body_move_right();//////////////////////////////////////////////////////////////////
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ G2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 1200);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ G2(50);
+ 
+
+ 
+  vacum_motor(3);
+  
+ servo_head_move(headr_pos_play+klapan_1, 5, 900);
+ 
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 300);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ G2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d_2(50);
+ 
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ 
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 300);
+ 
+body_move_left();//////////////////////////////////////////////////////////////////
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 2100);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ d_2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 300);
+
+ vacum_motor(2);
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 2100);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ G1(300);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ vacum_motor(3);
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ G1(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+ body_move_centre();//////////////////////////////////////////////////////////////////  
+  servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ H1(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 300);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ H1(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan_2, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan_1, 5, 1350);

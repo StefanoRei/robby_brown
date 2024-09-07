@@ -1,0 +1,45 @@
+  servo_head_move(headr_pos_play-klapan, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 300);
+
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ C2(50);
+ 
+ servo_head_move(headr_pos_play+klapan, 5, 2100);
+ 
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 300);
+
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ F2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 2100);
+ 
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ vacum_motor(7);
+ G1(9600);
+ servo_head_move(headr_pos_play+klapan, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ G1(50);
+ servo_head_move(headr_pos_play+klapan, 5, 600);
+
+  servo_head_move(headr_pos_play-klapan, 5, 0);
+ H1(50);
+ servo_head_move(headr_pos_play+klapan, 5, 300);
+
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ H1(50);
+ servo_head_move(headr_pos_play+klapan, 5, 600);
+
+ servo_head_move(headr_pos_play-klapan, 5, 0);
+ C2(50);
+ servo_head_move(headr_pos_play+klapan, 5, 2700);
+  
+  
+  move_saks_down();
+  servo_head_move(headr_pos_start, 50, 0);
+  move_head_left();
+  servo_head_move(headr_pos_start + 20, 50, 0);
+  delay(3000);
+  move_bling_gyba();
