@@ -1,0 +1,3 @@
+/debug_on
+/servo_time
+/servo_set;100;G_2 
